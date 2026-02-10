@@ -1,16 +1,51 @@
-# React + Vite
+# 🔢 React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple counter application built using **React** to understand and practice the **useState Hook**.  
+This project helped me learn how state works in functional components and how UI updates happen in React.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** https://counterv1.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Increment counter
+- Decrement counter
+- Reset counter
+- Instant UI updates using React state
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 What I Learned
+
+Through this project, I learned:
+
+- How to use the `useState` hook in React
+- How state changes trigger re-renders
+- Handling button click events
+- Writing clean functional components
+- Deploying a React app using **Vercel**
+
+---
+
+## 🛠️ Tech Stack
+
+- **React JS**
+- **JavaScript (ES6)**
+- **HTML5**
+- **CSS3**
+- **Vercel** (for deployment)
+
+---
+
+## ▶️ Getting Started Locally
+
+To run this project on your local machine:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm start
+
+
