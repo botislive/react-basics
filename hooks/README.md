@@ -43,8 +43,8 @@ Through this project, I learned:
 To run this project on your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/botislive/react-basics/hooks.git
+cd react-basics/hooks
 npm install
 npm start
 
