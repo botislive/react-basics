@@ -1,16 +1,52 @@
-# React + Vite
+# 🎨 Background Changer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Background Changer** built using **Vite + React + Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project helped me strengthen my understanding of **React fundamentals, state management, and dynamic styling**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo:** https://bg-changerv1.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚡ Vite
+- ⚛️ React
+- 🎨 Tailwind CSS
+- ▲ Vercel (Deployment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🎨 Dynamically change background color
+- ⚡ Instant UI updates using React `useState`
+- 📱 Responsive layout with Tailwind CSS
+- 🚀 Hosted live on Vercel
+
+---
+
+## 📸 Live Preview
+
+Click below to view the live application:
+
+👉 https://bg-changerv1.vercel.app/
+
+---
+
+## 🛠️ Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/botislive/react-basics.git
+
+# Navigate to project folder
+cd bg-changer
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
