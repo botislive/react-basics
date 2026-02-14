@@ -1,16 +1,67 @@
-# React + Vite
+# 🔐 Random Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Random Password Generator** built using **Vite + React + Tailwind CSS**.  
 
-Currently, two official plugins are available:
+This project demonstrates practical usage of React hooks like `useState`, `useCallback`, and `useRef` while building a clean and interactive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo:**  
+https://password-generatorv1.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔢 Adjustable password length using a slider
+- 🔤 Option to include Numbers
+- 🔣 Option to include Special Characters
+- 📋 One-click Copy to Clipboard
+- ⚡ Optimized password generation using `useCallback`
+- 🎯 DOM referencing using `useRef`
+- 🎨 Styled with Tailwind CSS
+- 🚀 Deployed on Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React (Hooks)
+- Vite
+- Tailwind CSS
+- Vercel (Deployment)
+
+---
+
+## 📚 Concepts Practiced
+
+### 🔹 useState
+- Managing password length
+- Handling checkbox states (numbers & characters)
+- Storing generated password
+
+### 🔹 useCallback
+- Memoizing the password generator function
+- Preventing unnecessary re-renders
+- Improving performance optimization
+
+### 🔹 useRef
+- Accessing the password input field
+- Implementing copy-to-clipboard functionality
+
+---
+
+## 📦 Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/botislive/react-basics.git
+
+# Navigate into the project directory
+cd passgen
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
