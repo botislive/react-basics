@@ -5,12 +5,15 @@ const Summary = () => {
 
   const [data, setData] = useState(null)
   const [username, setUsername] = useState('')
+  const [repos, setRepos] = useState(null)
+
 
   const handleApi = async () => {
     try {
       const response = await fetch(`https://api.github.com/users/${username}`)
       const result = await response.json()
       setData(result)
+      setRepos(null)
     } catch (error) {
       console.log(error)
     }
@@ -46,7 +49,7 @@ const Summary = () => {
 
       </div>
 
-      {data && <User userdata={data} />}
+      {data && <User userdata={data} repos={repos} setRepos={setRepos} />}
     </div>
   )
 }

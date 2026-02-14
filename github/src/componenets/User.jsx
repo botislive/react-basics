@@ -2,8 +2,8 @@ import { useState } from "react"
 import Repos from "./Repos"
 
 
-const User = ({ userdata }) => {
-    const [repos, setRepos] = useState(null)
+const User = ({ userdata, repos, setRepos}) => {
+    
 
     const repoHandler = async () => {
         console.log("button clicked")
@@ -64,7 +64,7 @@ const User = ({ userdata }) => {
         View Profile
       </a>
            
-           {repos && <Repos repos={repos}/>}
+           {repos && <Repos repos={repos} />}
 
 
     </div>
